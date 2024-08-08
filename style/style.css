@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Timmana&display=swap');
+
+:root{
+    --color-1: #0a3871;
+    --color-2: #d8dfe8;
+    --color-3: #ffffff;
+    --color-4: #e5e5e5;
+    --color-5: #495057;
+
+    --fuente-inter: "Inter", sans-serif;
+}

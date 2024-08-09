@@ -53,7 +53,7 @@ textarea::placeholder{
     width: 400px;
     height: 25em;
     padding: 10px;
-    background-image: url("/recursos/Muñeco.png");
+    background-image: url("recursos/Muñeco.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;

@@ -2,6 +2,11 @@ function encriptar(){
 
     var texto = document.getElementById("areaString").value;
 
+    if(/[A-Z]/.test(texto)){
+        alert("Ingrese solo minusculas!");
+        location.reload();
+    }
+
     var encryp="";
 
     for(var i=0; i<texto.length; i++){
@@ -40,6 +45,11 @@ function encriptar(){
 
 function desencriptar(){
     var texto = document.getElementById("areaString").value;
+
+    if(/[A-Z]/.test(texto)){
+        alert("Ingrese solo minusculas!");
+        location.reload();
+    }
 
     var desencryp="";
 
